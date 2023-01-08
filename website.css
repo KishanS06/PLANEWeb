@@ -55,7 +55,25 @@ body {
 .home-button:active {
   opacity: 0.15;
 }
+.home-container {
+  margin-right:10px;
+}
 
+.volunteers-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color:white;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.volunteers-button:hover {
+  color:black;
+  text-decoration: underline;
+}
+.volunteers-button:active {
+  opacity: 0.15;
+}
 .about-container {
   margin-right:10px;
 }
@@ -234,6 +252,23 @@ a:visited {
 .about-text-2 {
   font-size: 20px;
 }
+
+.volunteers-body-page {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lightgray;
+  padding: 50px;
+  font-family: Arial;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.volunteers-text-1 {
+  margin-bottom: 20px;
+}
+
 .resources-body-page {
   border: solid;
   border-width: 1px;
@@ -357,5 +392,11 @@ a:visited {
   }
   .contact-body-page {
     flex-direction: column;
+  }
+  .mail-container {
+    margin-bottom: 20px;
+  }
+  .phone-container {
+    margin-bottom: 20px;
   }
 }
