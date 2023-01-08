@@ -1,0 +1,361 @@
+body {
+  margin: 0;
+}
+.header {
+  background-color: lightblue;
+  display: flex;
+  margin:0;
+  top: 0;
+  left: 0;
+  right:0;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index:100;
+  padding: 20px;
+}
+.logo-container {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+}
+.logo {
+  height:130px;
+  border-radius: 65px;
+
+}
+.edition {
+  top:20px;
+  font-family: Arial;
+  font-size: 40px;
+}
+.button-header-container {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+
+.home-container {
+  margin-right:10px;
+}
+.home-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color:white;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.home-button:hover {
+  color:black;
+  text-decoration: underline;
+}
+.home-button:active {
+  opacity: 0.15;
+}
+
+.about-container {
+  margin-right:10px;
+}
+.about-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color:white;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.about-button:hover {
+  color:black;
+  text-decoration: underline;
+}
+.about-button:active {
+  opacity: 0.15;
+}
+
+.resources-container {
+  margin-right:10px;
+}
+.resources-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.resources-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color:white;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.resources-button:hover {
+  color:black;
+  text-decoration: underline;
+}
+.resources-button:active {
+  opacity: 0.15;
+}
+
+
+.donate-container {
+  margin-right:10px;
+}
+.donate-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color:white;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.donate-button:hover {
+  color:black;
+  text-decoration: underline;
+}
+.donate-button:active {
+  opacity: 0.15;
+}
+
+.contact-container {
+  margin-right:10px;
+}
+.contact-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color:white;
+  font-size: 30px;
+  transition: 0.5s;
+}
+.contact-button:hover {
+  color:black;
+  text-decoration: underline;
+}
+.contact-button:active {
+  opacity: 0.15;
+}
+/*------------------BODY PAGE--------------------------*/
+.home-body-page {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  display:flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  bottom:0;
+  position: relative;
+  margin-right:0;
+  border-width: 1px;
+  background-color: lightgray;
+}
+.background-img {
+  opacity:0.5;
+  height:800px;
+  width: 1200px;
+  margin:0;
+}
+.organization-page {
+  position: absolute;
+  justify-content: center;
+  top: 350px;
+}
+.org-button {
+  height: wrap;
+  border-width: 1px;
+  border-radius: 10px;
+  background-image: linear-gradient(lightblue,white);
+  cursor: pointer;
+  font-size: 40px;
+  padding:10px;
+  transition: 0.3s;
+  color: black;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+.org-button:hover {
+  color: gray;
+  box-shadow: 10px 10px 5px;
+}
+.org-button:active {
+  opacity: 0.5;
+}
+.about-body-page {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lightgray;
+  padding:50px;
+  font-family: Arial;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about-part-1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.about-img-1 {
+  height: auto;
+  width: auto;
+  max-height: 400px;
+  max-width: 533.26px;
+  padding-right: 10px;
+}
+.about-text-1 {
+  font-size: 20px;
+}
+.about-part-2 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.about-img-2 {
+  height: auto;
+  width: auto;
+  max-height: 400px;
+  max-width: 533.26px;
+  padding-right: 10px;
+}
+.about-text-2 {
+  font-size: 20px;
+}
+.resources-body-page {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lightgray;
+  padding: 50px;
+  font-family: Arial;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.research-paper {
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  background-image: linear-gradient(lightblue, white);
+  transition: 0.3s;
+}
+.research-paper:hover {
+  color: gray;
+  box-shadow: 10px 10px 5px;
+}
+.research-paper:active {
+  opacity: 0.5;
+}
+
+.donate-body-page {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lightgray;
+  padding: 50px;
+  font-family: Arial;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.donate-link-button {
+  display: block;
+  font-size: 20px;
+  padding: 10px;
+  background-image: linear-gradient(lightblue, white);
+  transition: 0.3s;
+}
+.donate-link-button:hover {
+  color: gray;
+  box-shadow: 10px 10px 5px;
+}
+.donate-link-button:active {
+  opacity: 0.5;
+}
+.contact-body-page {
+  border: solid;
+  border-width: 1px;
+  border-color: black;
+  background-color: lightblue;
+  padding: 50px;
+  font-family: Arial;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.mail-img {
+  height: 20px;
+}
+.phone-img {
+  height: 20px;
+}
+.fb-button {
+  cursor: pointer;
+}
+.fb-img {
+  height: 20px;
+}
+.insta-button {
+  cursor: pointer;
+}
+.insta-img {
+  height: 20px;
+}
+.yt-button {
+  cursor: pointer;
+}
+.yt-img {
+  height: 20px;
+}
+.in-button {
+  cursor: pointer;
+}
+.in-img {
+  height: 20px;
+}
+.whatsapp-button {
+  cursor: pointer;
+}
+.whatsapp-img {
+  height: 20px;
+}
+.twitter-button {
+  cursor: pointer;
+}
+.twitter-img {
+  height: 20px;
+}
+@media (max-width:1100px) {
+  body {
+    overflow-x: hidden;
+  }
+  .header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button-header-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-body-page {
+    flex-direction: column;
+  }
+}
